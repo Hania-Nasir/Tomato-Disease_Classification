@@ -1,15 +1,15 @@
-#Tomato-Plant-Disease-Classifier
+# Tomato-Plant-Disease-Classifier
 
 This project classifies diseases in tomato plants based on leaf images. It uses a deep learning model to detect diseases such as Early Blight, Late Blight, Leaf Mold, and more.
 The main goal is to help farmers and gardeners quickly identify plant diseases and take timely action.
 
-##Project Overview
+## Project Overview
 
 Plant diseases significantly affect crop yield and quality. Early detection is crucial to prevent widespread damage.
 This project applies a convolutional neural network (CNN) model to classify tomato leaf images into multiple disease categories or healthy leaves.
 It demonstrates how AI and deep learning can assist in agriculture by providing fast, image-based disease diagnosis.
 
-##Tools and Technologies
+## Tools and Technologies
 
 Programming Language: Python
 
@@ -21,7 +21,7 @@ Deployment Framework: Streamlit (frontend)
 
 Other Tools: Git, GitHub, VS Code
 
-##Project Structure
+## Project Structure
 streamlit_tomato_classifier/
 │
 ├── version_1.keras             # Trained deep learning model
@@ -30,8 +30,8 @@ streamlit_tomato_classifier/
 ├── requirements.txt            # Project dependencies
 └── README.md                   # Project documentation
 
-##Machine Learning Workflow
-###Data Preprocessing
+## Machine Learning Workflow
+### Data Preprocessing
 
 Collected and cleaned tomato leaf images for multiple disease classes
 
@@ -39,7 +39,7 @@ Resized and normalized images for model input
 
 Split data into training and validation sets
 
-###Model Training
+### Model Training
 
 Trained a CNN model using Keras and TensorFlow
 
@@ -47,7 +47,7 @@ Evaluated model accuracy and loss on validation data
 
 Saved the best model as version_1.keras
 
-###Deployment
+### Deployment
 
 Developed a Streamlit app for interactive usage
 
@@ -59,7 +59,7 @@ Generates a PDF report including the image, predicted disease, confidence, and d
 
 Fully self-contained and deployable on Streamlit Cloud
 
-###Features
+### Features
 
 Upload or capture tomato leaf images
 
@@ -69,7 +69,7 @@ Predict disease with confidence score
 
 Generate downloadable PDF report with all details
 
-###Author
+### Author
 
 Hania Nasir
 
