@@ -1,5 +1,5 @@
-streamlit==1.51.0
-tensorflow @ file:///D:/python_envs/packages/tensorflow-2.20.0-cp312-cp312-win_amd64.whl#sha256=1590cbf87b6bcbd34d8e9ad70d0c696135e0aa71be31803b27358cf7ed63f8fc
-pillow==12.0.0
-numpy==2.2.6
-reportlab==4.4.5
+streamlit==1.30.0
+tensorflow-cpu==2.15.0
+pillow==10.1.0
+numpy==1.26.0
+reportlab==4.0.0
